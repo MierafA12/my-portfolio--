@@ -1,0 +1,91 @@
+.home {
+    width: 100%;
+    background-size: cover;
+    height: 89vh;
+    margin-bottom: 70px !important;
+    background-color: #f1faee; /* Background color updated */
+}
+
+.home-content {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    color: #1A2E49; /* Text color updated */
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #1A2E49; /* Updated */
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #B19768; /* Updated */
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.profile {
+    background: url('../assets/Snap-1554115564.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    margin-top: 70px;
+    margin-right: 70px;
+    border: 4px solid #B19768; /* Border color updated */
+    box-shadow: 4px 4px 80px #1A2E49; /* Shadow color updated */
+    filter:  brightness(0.7);
+    transition: filter 0.3s ease-in-out;
+    border-radius: 50%;
+    
+}
+
+.profile:hover {
+    box-shadow: 4px 4px 80px #B19768; /* Hover shadow updated */
+    filter: blur(0) brightness(1);
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: #B19768 2px solid; 
+    color: #1A2E49;
+   margin-top: 10PX;
+   font-size: 1em;
+}
+
+button:hover {
+    background-color: #b3daf6; /* Hover color updated */
+    transition: 1s;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #D4B483; /* Updated */
+    font-size: 30px;
+}
+
+.social-links a:hover {
+    color: #b3daf6; /* Updated */
+    transition: 1s;
+}
