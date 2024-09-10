@@ -16,21 +16,21 @@ You may also see any lint errors in the console.
 
 #### about files 
  in the src file there are 5 folders 
- assets
- component-jsx
-       header.jsx
- component-css
-        header.css
- pages-jsx
-        home-jsx
+ assets,
+ component-jsx ,
+      ( header.jsx)
+ component-css ,
+       ( header.css)
+ pages-jsx,
+        (home-jsx
         about-jsx
         portfolio-jsx
-        contact-jsx
- pages-css
-        home-css
+        contact-jsx)
+ pages-css,
+        (home-css
         about-css
         portfolio-css
-        contact-css
+        contact-css)
  
 
 
