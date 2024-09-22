@@ -3,7 +3,7 @@
     background-size: cover;
     height: 89vh;
     margin-bottom: 70px !important;
-    background-color: #f1faee; /* Background color updated */
+    background-color: #f1faee; 
 }
 
 .home-content {
@@ -14,7 +14,7 @@
 }
 
 .content {
-    color: #1A2E49; /* Text color updated */
+    color: #1A2E49; 
     margin-top: 70px;
     margin-left: 70px;
     width: 600px;
@@ -24,13 +24,13 @@
 .content h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #1A2E49; /* Updated */
+    color: #1A2E49; 
 }
 
 .content h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #B19768; /* Updated */
+    color: #B19768; 
 }
 
 .content p {
@@ -46,8 +46,8 @@
     height: 350px;
     margin-top: 70px;
     margin-right: 70px;
-    border: 4px solid #B19768; /* Border color updated */
-    box-shadow: 4px 4px 80px #1A2E49; /* Shadow color updated */
+    border: 4px solid #B19768; 
+    box-shadow: 4px 4px 80px #1A2E49; 
     filter:  brightness(0.7);
     transition: filter 0.3s ease-in-out;
     border-radius: 50%;
@@ -55,7 +55,7 @@
 }
 
 .profile:hover {
-    box-shadow: 4px 4px 80px #B19768; /* Hover shadow updated */
+    box-shadow: 4px 4px 80px #B19768;
     filter: blur(0) brightness(1);
 }
 
@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #b3daf6; /* Hover color updated */
+    background-color: #b3daf6; 
     transition: 1s;
 }
 
@@ -81,11 +81,32 @@ button:hover {
 }
 
 .social-links a {
-    color: #D4B483; /* Updated */
+    color: #D4B483;
     font-size: 30px;
 }
 
 .social-links a:hover {
-    color: #b3daf6; /* Updated */
+    color: #b3daf6; 
     transition: 1s;
+}
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        
+       
+    }
+     .content{
+        order: 2;
+       margin-left: 15px;
+       margin-top: 15px;
+        width: 400px;
+     }
+     .profile{
+        order: 1;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+       
+     }
+     
 }

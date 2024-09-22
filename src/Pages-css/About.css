@@ -74,3 +74,33 @@ body {
     color: #34495e;
     margin-top: 5px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .skills-icons{
+        flex-direction: row;}
+        .skills{
+        margin-top: 5px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .skills-icons{
+        flex-direction: row;}
+        .skills{
+        margin-top: 5px;}
+        .about-info{
+             margin-left: 15px; 
+            }
+        
+    
+  
+}

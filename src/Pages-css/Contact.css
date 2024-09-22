@@ -81,3 +81,9 @@ textarea {
   background-color: #b3daf6;
   transition: 1s;
 }
+
+@media (max-width: 768px) {
+  .contact-container{
+    margin-left: 15px;
+  }
+  }

@@ -23,8 +23,8 @@
 .project-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the items horizontally */
-    gap: 50px; /* Spacing between items */
+    justify-content: center; 
+    gap: 50px; 
 }
 .project-card {
     background-color: #fff;
@@ -85,4 +85,14 @@
     font-size: 1.2em;
     color: #1A2E49;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .project-card{
+       width: 400px;
+      
+    }
+    .portfolio-content{
+        margin: 15px;
+    }
 }
