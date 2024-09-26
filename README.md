@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 #### about files 
  in the src file there are 5 folders 
  assets,
- component-jsx ,
+ component-jsx ,\n
       ( header.jsx)
  component-css ,
        ( header.css)
@@ -31,7 +31,13 @@ You may also see any lint errors in the console.
         about-css
         portfolio-css
         contact-css)
- 
+
+
+ there is also backend side for the contact page it contain 3 files and packages.
+ backend ,
+       (contactModel.js)
+       (contactRoute.js)
+       (server.js)
 
 
 
