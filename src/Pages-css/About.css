@@ -74,6 +74,36 @@ body {
     color: #34495e;
     margin-top: 5px;
 }
+body.dark-mode .about-info {
+    color: #f0f0f0;
+}
+
+body.dark-mode .about-content  {
+    color: #ffab40; /* A lighter accent color */
+}
+
+body.dark-mode .text-content h2  {
+    color:#ffab40;
+}
+body.dark-mode .text-content h1  {
+    color: #ffab40;
+}
+body.dark-mode .text-content p {
+    color:#f0f0f0;
+}
+
+body.dark-mode .skills h2 {
+    color: #ffab40;
+}
+
+body.dark-mode .skill svg {
+    color: #ffab40;
+}
+
+body.dark-mode .skill p {
+    color: #f0f0f0;
+}
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
  

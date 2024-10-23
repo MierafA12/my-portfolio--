@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Pages-css/Portfolio.css';
+import Lounge from '../assets/Lounge.png';
 
 
 function Portfolio() {
@@ -12,7 +13,7 @@ function Portfolio() {
             link: 'https://github.com/MierafA12/simple-room-managment', 
         },
         {
-            image: "", 
+            image: Lounge, 
             title: 'lounge food ordering web',
             description: 'food ordering web for lounges made by react and its backend.',
             link: 'https://github.com/nigus-tatek/LOUNGE-FOODORDERING-SYSTEM-WEBSITE', 

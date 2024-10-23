@@ -5,7 +5,9 @@
     padding: 0;
 }
 
-
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 .header {
     width: 100%;
@@ -15,18 +17,18 @@
     align-items: center;
     padding: 0 20px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    background:#B19768;
-   
+    background: #B19768; /* Light mode background */
+    transition: background-color 0.3s ease;
 }
-
 
 .name p {
     font-weight: 700;
-    color:aqua;
+    color: aqua;
     font-size: 24px;
     margin-left: 20px;
 }
-.maf{
+
+.maf {
     background: url(../assets/Maf..png);
     height: 50px;
     width: 110px;
@@ -34,24 +36,22 @@
     margin-left: 70px;
 }
 
-
 .links {
     display: flex;
     margin-right: 70px;
     margin-left: 70px;
+    gap: 20px; /* Added gap for better spacing */
 }
-
 
 .one-link {
     margin: 0 15px;
-    
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .link {
-    color:#1A2E49; 
+    color: #1A2E49; /* Light mode text color */
     text-decoration: none;
     font-size: 16px;
     display: block;
@@ -60,38 +60,74 @@
 }
 
 .one-link:hover {
-     color: #b3daf6;
-    transform: scale(1.05); 
+    color: #b3daf6;
+    transform: scale(1.05);
 }
-
-
-
-
 
 .link:hover {
     text-decoration: underline #b3daf6;
-    color:#b3daf6; 
+    color: #b3daf6;
 }
-
-
-
 
 .name {
     font-size: 24px;
     color: #1A2E49;
 }
 
-/* Links container */
-.links {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Default text color in dark mode */
 }
 
-.one-link .link {
-    text-decoration: none;
-    color: #1A2E49;
-    font-size: 18px;
+.header.dark {
+    background-color: #1c1c1c; /* Dark mode header background */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.header.dark .link {
+    color: #ffffff; /* Text color in dark mode */
+}
+
+.header.dark .one-link:hover {
+    color: #b3daf6; /* Hover color in dark mode */
+}
+
+.header.dark .hamburger span {
+    background-color: #ffffff; /* Hamburger icon color in dark mode */
+}
+
+.links.show.dark {
+    background-color: #333; /* Dark mode background for links */
+    color: #ffffff; /* Text color for links in dark mode */
+}
+
+.links.show .link {
+    color: #ffffff; /* Text color for links in dark mode */
+}
+
+.header.dark .maf {
+    background: url(../assets/Maf.\ \(2\).png);
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+    margin-left: 70px;
+}
+
+#dark-mode-toggle {
+    margin-top: 12PX;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* Dark mode for icons */
+#dark-mode-toggle .fa-moon {
+    color: black; /* Moon icon color in light mode */
+}
+
+#dark-mode-toggle .Fa-Sun {
+    color: yellow; /* Sun icon color in dark mode */
 }
 
 /* Hamburger icon for mobile */
@@ -105,7 +141,7 @@
 .hamburger span {
     width: 100%;
     height: 3px;
-    background-color: #1A2E49;
+    background-color: #1A2E49; /* Light mode color */
     margin: 5px 0;
     transition: all 0.3s ease;
 }
@@ -137,30 +173,50 @@
         position: absolute;
         top: 65px;
         right: 5px;
-        background-color: #f1faee;
+        background-color: #1A2E49; /* Light mode background */	
+        background-color: #f1faee; /* Light mode background */
         width: 100px;
         margin-right: 20px;
-     
-        /* padding: 10px; */
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
      
     /* Show the links when menu is open */
     .links.show {
-        display: flex;
+        display: flex;  
     }
 
     .one-link {
         margin-bottom: 10px;
     }
-    .maf{
+
+    .maf {
         margin-left: 15px;
-       }
-       .one-link:hover{
-        background-color: #b3daf6;
+    }
+
+    .one-link:hover {
+        background-color: #b3daf6; /* Hover color in light mode */
         width: 100px;
-       }
+    }
+
+    /* Dark mode for mobile */
+    body.dark-mode .links {
+        background-color: #333; /* Dark mode background for mobile links */
+        color: black; /* Text color for mobile links in dark mode */
+    }
+
+    body.dark-mode .header {
+        background-color: #1c1c1c; /* Dark mode header background for mobile */
+    }
+
+    body.dark-mode .one-link .link {
+        color: #ffffff; /* Link color in dark mode for mobile */
+    }
+
+    body.dark-mode .one-link:hover {
+        background-color: #444; /* Hover color in dark mode */
+    }
+
+    body.dark-mode .maf {
+        background: url(../assets/Maf.\ \(2\).png); /* Dark mode background for .maf */
+    }
 }
-
-    
-

@@ -89,6 +89,43 @@ button:hover {
     color: #b3daf6; 
     transition: 1s;
 }
+.dark-mode {
+    background-color: #1A1A2E;
+    color: #f0f0f0;
+}
+
+.dark-mode .home {
+    background-color: #1A1A2E;
+}
+
+.dark-mode .content h1, .dark-mode .content p {
+    color: #f0f0f0;
+}
+.dark-mode .content h3{
+    color: #ffab40;
+}
+
+.dark-mode .social-link {
+    color: #f0f0f0;
+}
+
+.dark-mode .social-link:hover {
+    color: #ffab40;
+}
+
+.dark-mode .ggg {
+    background-color: #ffab40;
+    color: #1A1A2E;
+}
+
+.dark-mode .ggg:hover {
+    background-color: #e68a00;
+}
+.dark-mode .profile {
+    filter: blur(0) brightness(1);
+    border: 4px solid #e68a00; 
+    box-shadow: 4px 4px 80px #B19768;
+}
 @media (max-width: 768px) {
     .home-content {
         flex-direction: column;
