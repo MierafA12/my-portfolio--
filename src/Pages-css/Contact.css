@@ -83,46 +83,46 @@ textarea {
 }
 
 body.dark-mode {
-  background-color: #1A1A2E; /* Dark mode background */
-  color: #f0f0f0; /* Light text color for dark mode */
+  background-color: #1A1A2E; 
+  color: #f0f0f0; 
 }
 
 body.dark-mode .contact-container {
-  color: #f0f0f0; /* Light text color for dark mode */
-}
+  color: #f0f0f0; 
+  }
 
 body.dark-mode h1 {
-  color: #ffab40; /* Adjusted heading color for dark mode */
+  color: #ffab40; 
 }
 
 body.dark-mode label {
-  color: #f0f0f0; /* Light label color for dark mode */
+  color: #f0f0f0; 
 }
 
 body.dark-mode input[type="text"]:focus,
 body.dark-mode input[type="email"]:focus,
 body.dark-mode textarea:focus {
-    border-bottom-color: #ffab40; /* Light color on focus in dark mode */
-}
+    border-bottom-color: #ffab40; 
+    }
 
 body.dark-mode input[type="text"],
 body.dark-mode input[type="email"],
 body.dark-mode textarea {
-    border-bottom: 2px solid #f0ab40; /* Light border color in dark mode */
-}
+    border-bottom: 2px solid #f0ab40; 
+  }
 
 body.dark-mode .success {
-  color: #f0f0f0; /* Light color for success messages in dark mode */
+  color: #f0f0f0; 
 }
 
 body.dark-mode .submit-button {
-  background-color:  #ffab40; /* Light text color in dark mode */
-  border-color: #ffab40; /* Light border color in dark mode */
+  background-color:  #ffab40;
+  border-color: #ffab40; 
 }
 
 body.dark-mode .submit-button:hover {
-  background-color: #ffab40; /* Dark mode hover color */
-  color: #1A1A2E; /* Dark mode hover text color */
+  background-color: #ffab40;
+  color: #1A1A2E; 
 }
 @media (max-width: 768px) {
   .contact-container{

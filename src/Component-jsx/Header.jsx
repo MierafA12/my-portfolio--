@@ -67,7 +67,7 @@ export default function Header() {
                     </Link>
                 </div>
 
-                {/* Dark Mode Toggle */}
+               
                 <div id="dark-mode-toggle" onClick={toggleDarkMode}>
                     {darkMode ? <FaSun /> : <FaMoon />}
                 </div>

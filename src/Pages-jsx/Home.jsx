@@ -6,7 +6,7 @@ import { FaGithub, FaGoogle, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import  About from '../Pages-jsx/About.jsx'; // Import
 import  Portfolio from '../Pages-jsx/Portfolio.jsx';
 import  Contact from '../Pages-jsx/Contact.jsx';
-
+import Footer from '../Component-jsx/Footer.jsx';
 
 const Home = () => {
   return (
@@ -35,6 +35,7 @@ const Home = () => {
         <div className="buttons">
           
           <Link to="contact"><button className="ggg">Contact Me</button></Link>
+          <Link to=""><button className="ggg" id="resume">Resume</button></Link>
         </div>
       </div>
       <div className="profile"></div>
@@ -42,7 +43,8 @@ const Home = () => {
 <About/>
 <Portfolio/>
 <Contact/>
-    </div>
+<Footer/>
+</div>
     
   );
 };

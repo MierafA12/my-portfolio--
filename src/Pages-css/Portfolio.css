@@ -124,6 +124,10 @@ body.dark-mode .no-projects-message {
        width: 400px;
       
     }
+    .project-card img{
+        width: 190px;
+       
+     }
     .portfolio-content{
         margin: 15px;
     }

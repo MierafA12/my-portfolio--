@@ -67,6 +67,10 @@ button {
     color: #1A2E49;
    margin-top: 10PX;
    font-size: 1em;
+ 
+}
+#resume{
+    margin-left: 10px;
 }
 
 button:hover {
@@ -90,12 +94,12 @@ button:hover {
     transition: 1s;
 }
 .dark-mode {
-    background-color: #1A1A2E;
+    background-color: #0f0f17;
     color: #f0f0f0;
 }
 
 .dark-mode .home {
-    background-color: #1A1A2E;
+    background-color: #0f0f15;
 }
 
 .dark-mode .content h1, .dark-mode .content p {

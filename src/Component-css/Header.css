@@ -17,7 +17,7 @@ body {
     align-items: center;
     padding: 0 20px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    background: #B19768; /* Light mode background */
+    background: #B19768; 
     transition: background-color 0.3s ease;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .link {
-    color: #1A2E49; /* Light mode text color */
+    color: #1A2E49; 
     text-decoration: none;
     font-size: 16px;
     display: block;
@@ -66,7 +66,7 @@ body {
 
 .link:hover {
     text-decoration: underline #b3daf6;
-    color: #b3daf6;
+   
 }
 
 .name {
@@ -76,34 +76,29 @@ body {
 
 /* Dark mode styles */
 body.dark-mode {
-    background-color: #121212; /* Dark mode background */
-    color: #ffffff; /* Default text color in dark mode */
+    background-color: #121212; 
+    color: #ffffff; 
 }
 
 .header.dark {
-    background-color: #1c1c1c; /* Dark mode header background */
+    background-color: #1c1c1c; 
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .header.dark .link {
-    color: #ffffff; /* Text color in dark mode */
+    color: #ffffff; 
 }
 
-.header.dark .one-link:hover {
-    color: #b3daf6; /* Hover color in dark mode */
-}
+
 
 .header.dark .hamburger span {
-    background-color: #ffffff; /* Hamburger icon color in dark mode */
+    background-color: #ffffff; 
 }
 
 .links.show.dark {
-    background-color: #333; /* Dark mode background for links */
-    color: #ffffff; /* Text color for links in dark mode */
-}
+    background-color: #333; 
+    color: #ffffff; 
 
-.links.show .link {
-    color: #ffffff; /* Text color for links in dark mode */
 }
 
 .header.dark .maf {
@@ -111,7 +106,7 @@ body.dark-mode {
     height: 50px;
     width: 110px;
     background-size: cover;
-    margin-left: 70px;
+   
 }
 
 #dark-mode-toggle {
@@ -120,17 +115,20 @@ body.dark-mode {
     top: 10px;
     cursor: pointer;
 }
+.Fa-Sun{
+    color: #ffab40; 
+}
 
 /* Dark mode for icons */
 #dark-mode-toggle .fa-moon {
-    color: black; /* Moon icon color in light mode */
+    color: black; 
 }
 
 #dark-mode-toggle .Fa-Sun {
-    color: yellow; /* Sun icon color in dark mode */
+    color: #ffab40; 
 }
 
-/* Hamburger icon for mobile */
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -141,7 +139,7 @@ body.dark-mode {
 .hamburger span {
     width: 100%;
     height: 3px;
-    background-color: #1A2E49; /* Light mode color */
+    background-color: #1A2E49; 
     margin: 5px 0;
     transition: all 0.3s ease;
 }
@@ -161,20 +159,20 @@ body.dark-mode {
 
 /* Mobile-specific styles */
 @media only screen and (max-width: 768px) {
-    /* Show the hamburger menu on mobile */
+    
     .hamburger {
         display: flex;
     }
 
-    /* Initially hide the links on mobile */
+
     .links {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 65px;
         right: 5px;
-        background-color: #1A2E49; /* Light mode background */	
-        background-color: #f1faee; /* Light mode background */
+        background-color: #B19768;
+        color: #1A2E49;
         width: 100px;
         margin-right: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -182,11 +180,12 @@ body.dark-mode {
      
     /* Show the links when menu is open */
     .links.show {
-        display: flex;  
+        display: flex;       
     }
 
     .one-link {
         margin-bottom: 10px;
+        color: #000;
     }
 
     .maf {
@@ -196,27 +195,29 @@ body.dark-mode {
     .one-link:hover {
         background-color: #b3daf6; /* Hover color in light mode */
         width: 100px;
+        color: #000;
+    }
+    #dark-mode-toggle{
+        margin-left: 40PX;
     }
 
     /* Dark mode for mobile */
     body.dark-mode .links {
-        background-color: #333; /* Dark mode background for mobile links */
-        color: black; /* Text color for mobile links in dark mode */
+        background-color: #333; 
+        color: black; 
     }
 
     body.dark-mode .header {
-        background-color: #1c1c1c; /* Dark mode header background for mobile */
+        background-color: #1c1c1c; 
     }
 
-    body.dark-mode .one-link .link {
-        color: #ffffff; /* Link color in dark mode for mobile */
-    }
+   
 
     body.dark-mode .one-link:hover {
-        background-color: #444; /* Hover color in dark mode */
+        background-color: #444;
     }
 
     body.dark-mode .maf {
-        background: url(../assets/Maf.\ \(2\).png); /* Dark mode background for .maf */
+        background: url(../assets/Maf.\ \(2\).png); 
     }
 }
