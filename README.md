@@ -17,10 +17,12 @@ You may also see any lint errors in the console.
 #### about files 
  in the src file there are 5 folders 
  assets,
- component-jsx ,\n
+ component-jsx 
       ( header.jsx)
+      ( footer.jsx)
  component-css ,
        ( header.css)
+       (footer.css)
  pages-jsx,
         (home-jsx
         about-jsx
