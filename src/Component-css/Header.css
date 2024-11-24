@@ -146,7 +146,7 @@ body.dark-mode {
 
 /* When the menu is open, create an "X" for the icon */
 .hamburger.open span:nth-child(1) {
-    transform: rotate(45deg) translateY(8px);
+    transform: rotate(45deg) translateY(18px);
 }
 
 .hamburger.open span:nth-child(2) {
@@ -154,7 +154,7 @@ body.dark-mode {
 }
 
 .hamburger.open span:nth-child(3) {
-    transform: rotate(-45deg) translateY(-8px);
+    transform: rotate(-45deg) translateY(-18px);
 }
 
 /* Mobile-specific styles */
