@@ -133,7 +133,7 @@ button:hover {
 @media (max-width: 768px) {
     .home-content {
         flex-direction: column;
-        margin-left: 15px;
+        margin-left: 70px;
     }
      .content{
         order: 2;
