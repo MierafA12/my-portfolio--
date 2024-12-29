@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Pages-css/Portfolio.css';
 import Lounge from '../assets/Lounge.png';
-
+import quizapp from '../assets/quizapp.png';
 
 function Portfolio() {
     
@@ -17,7 +17,13 @@ function Portfolio() {
             title: 'lounge food ordering web',
             description: 'food ordering web for lounges made by react and its backend.',
             link: 'https://github.com/nigus-tatek/LOUNGE-FOODORDERING-SYSTEM-WEBSITE', 
-        } 
+        },
+        {
+            image: quizapp, 
+            title: 'Quiz App with Timer',
+            description: 'This app is designed to make learning fun and engaging by testing your knowledge across various topics.',
+            link: 'https://github.com/Hailemeskel-Getaneh/QuizApp', 
+        },
       
         
 ]; 
