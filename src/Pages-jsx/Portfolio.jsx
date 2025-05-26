@@ -2,7 +2,7 @@ import React from 'react';
 import '../Pages-css/Portfolio.css';
 import Lounge from '../assets/Lounge.png';
 import quizapp from '../assets/quizapp.png';
-
+import Ethiolingo from '../assets/Ethiolingo.jpg'
 function Portfolio() {
     
     const projects = [
@@ -24,6 +24,13 @@ function Portfolio() {
             description: 'This app is designed to make learning fun and engaging by testing your knowledge across various topics.',
             link: 'https://github.com/Hailemeskel-Getaneh/QuizApp', 
         },
+         {
+            image: Ethiolingo, 
+            title: 'local language lerning app',
+            description: 'A local language learning app designed to help users easily learn and practice Ethiopian languages through interactive lessons and engaging activities.',
+            link: 'https://github.com/Hailemeskel-Getaneh/EthioLingo', 
+        },
+
       
         
 ]; 
