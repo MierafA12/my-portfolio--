@@ -36,7 +36,7 @@ const Home = () => {
           
           <Link to="contact"><button className="ggg">Contact Me</button></Link>
           <a
-            href="https://docs.google.com/document/d/1EoMhLeRAON8lusvsiyh3C4QUwE7IpSiRZdda0dRFvfE/edit?tab=t.0"
+            href="https://docs.google.com/document/d/1EoMhLeRAON8lusvsiyh3C4QUwE7IpSiRZdda0dRFvfE/edit?tab=t.0#heading=h.5rf9wr4r3no2"
             target="_blank"
             rel="noopener noreferrer"
           >
