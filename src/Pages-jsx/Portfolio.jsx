@@ -3,6 +3,8 @@ import '../Pages-css/Portfolio.css';
 import Lounge from '../assets/Lounge.png';
 import quizapp from '../assets/quizapp.png';
 import Ethiolingo from '../assets/Ethiolingo.jpg'
+import hemenhotel from '../assets/hemenhotel.png'
+import task from '../assets/task.jpg'
 function Portfolio() {
     
     const projects = [
@@ -31,7 +33,7 @@ function Portfolio() {
             link: 'https://github.com/Hailemeskel-Getaneh/QuizApp', 
         },
           {
-            image: quiza, 
+            image: task, 
             title: 'simple task managment ',
             description: 'This app is simple task manager app worked by react native store and check complated taks ',
             link: 'https://github.com/MierafA12/simpletaskmanager', 
