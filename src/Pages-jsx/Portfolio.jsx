@@ -5,13 +5,14 @@ import quizapp from '../assets/quizapp.png';
 import Ethiolingo from '../assets/Ethiolingo.jpg'
 import hemenhotel from '../assets/hemenhotel.png'
 import task from '../assets/task.jpg'
+import car from '../assets/car.jpg'
 function Portfolio() {
     
     const projects = [
          {
             image: Ethiolingo, 
             title: 'local language lerning app',
-            description: 'A local language learning app designed to help users easily learn and practice Ethiopian languages through interactive lessons and engaging activities.',
+            description: 'A local language learning app designed to help users easily learn and practice Ethiopian languages through interactive lessons and engaging activities also offline support.',
             link: 'https://github.com/Hailemeskel-Getaneh/EthioLingo', 
         },
          {
@@ -39,9 +40,9 @@ function Portfolio() {
             link: 'https://github.com/MierafA12/simpletaskmanager', 
         },
         {
-            image: "", 
-            title: 'simple-room-managment',
-            description: 'simple system made by c++ program for room reservation.',
+            image: car, 
+            title: 'car rent app ',
+            description: 'car rent app worked by react native and by using local storage .',
             link: 'https://github.com/MierafA12/simple-room-managment', 
         },
        
