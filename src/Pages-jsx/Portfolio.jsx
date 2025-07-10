@@ -6,30 +6,45 @@ import Ethiolingo from '../assets/Ethiolingo.jpg'
 function Portfolio() {
     
     const projects = [
-        {
-            image: "", 
-            title: 'simple-room-managment',
-            description: 'simple system made by c++ program for room reservation.',
-            link: 'https://github.com/MierafA12/simple-room-managment', 
-        },
-        {
-            image: Lounge, 
-            title: 'lounge food ordering web',
-            description: 'food ordering web for lounges made by react and its backend.',
-            link: 'https://github.com/nigus-tatek/LOUNGE-FOODORDERING-SYSTEM-WEBSITE', 
-        },
-        {
-            image: quizapp, 
-            title: 'Quiz App with Timer',
-            description: 'This app is designed to make learning fun and engaging by testing your knowledge across various topics.',
-            link: 'https://github.com/Hailemeskel-Getaneh/QuizApp', 
-        },
          {
             image: Ethiolingo, 
             title: 'local language lerning app',
             description: 'A local language learning app designed to help users easily learn and practice Ethiopian languages through interactive lessons and engaging activities.',
             link: 'https://github.com/Hailemeskel-Getaneh/EthioLingo', 
         },
+         {
+            image: Lounge, 
+            title: 'lounge food ordering web',
+            description: 'food ordering web for lounges made by react and its backend.',
+            link: 'https://github.com/MierafA12/food-ordering-web', 
+        },
+        {
+            image: hemenhotel, 
+            title: 'hemen hotel ',
+            description: 'This is hotel website build for hemen ',
+            link: 'https://github.com/MierafA12/HemenHotel', 
+        },
+          {
+            image: quizapp, 
+            title: 'Quiz App with Timer',
+            description: 'This app is designed to make learning fun and engaging by testing your knowledge across various topics.',
+            link: 'https://github.com/Hailemeskel-Getaneh/QuizApp', 
+        },
+          {
+            image: quiza, 
+            title: 'simple task managment ',
+            description: 'This app is simple task manager app worked by react native store and check complated taks ',
+            link: 'https://github.com/MierafA12/simpletaskmanager', 
+        },
+        {
+            image: "", 
+            title: 'simple-room-managment',
+            description: 'simple system made by c++ program for room reservation.',
+            link: 'https://github.com/MierafA12/simple-room-managment', 
+        },
+       
+      
+        
 
       
         
